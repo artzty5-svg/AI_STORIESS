@@ -1,0 +1,74 @@
+[
+ {
+  "token": "a7c37148.png",
+  "t": 12.0,
+  "frame": 360,
+  "size": 1085136
+ },
+ {
+  "token": "5941d3f4.png",
+  "t": 45.0,
+  "frame": 1350,
+  "size": 404276
+ },
+ {
+  "token": "abafbf5f.png",
+  "t": 78.0,
+  "frame": 2340,
+  "size": 757458
+ },
+ {
+  "token": "c26557d9.png",
+  "t": 105.0,
+  "frame": 3150,
+  "size": 424524
+ },
+ {
+  "token": "4964207f.png",
+  "t": 150.0,
+  "frame": 4500,
+  "size": 361138
+ },
+ {
+  "token": "b58ee781.png",
+  "t": 190.0,
+  "frame": 5700,
+  "size": 723037
+ },
+ {
+  "token": "edf2b205.png",
+  "t": 230.0,
+  "frame": 6900,
+  "size": 1907131
+ },
+ {
+  "token": "ef6c6cef.png",
+  "t": 275.0,
+  "frame": 8250,
+  "size": 1156226
+ },
+ {
+  "token": "db329559.png",
+  "t": 310.0,
+  "frame": 9300,
+  "size": 591065
+ },
+ {
+  "token": "1aeacf11.png",
+  "t": 355.0,
+  "frame": 10650,
+  "size": 1099104
+ },
+ {
+  "token": "9ed36306.png",
+  "t": 400.0,
+  "frame": 12000,
+  "size": 453899
+ },
+ {
+  "token": "4b3748b2.png",
+  "t": 450.0,
+  "frame": 13500,
+  "size": 616938
+ }
+]

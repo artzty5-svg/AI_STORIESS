@@ -1,0 +1,40 @@
+{
+  "name": "ai-stories",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Remotion + Three.js animation pipeline for AI_STORIES",
+  "scripts": {
+    "studio": "remotion studio src/remotion/index.ts",
+    "compositions": "remotion compositions src/remotion/index.ts",
+    "typecheck": "tsc --noEmit",
+    "versions": "remotion versions",
+    "browser": "remotion browser ensure",
+    "gpu": "remotion gpu",
+    "verify": "bash scripts/verify-env.sh",
+    "test:2d": "remotion render src/remotion/index.ts TestComposition output/test-2d.mp4 --frames=0-59",
+    "test:three": "remotion render src/remotion/index.ts ThreeTestComposition output/test-three.mp4 --frames=0-59",
+    "test:all": "npm run test:2d && npm run test:three",
+    "render": "remotion render src/remotion/index.ts",
+    "still": "remotion still src/remotion/index.ts"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/three": "^4.0.540",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.540",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.540",
+    "@remotion/player": "^4.0.540",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

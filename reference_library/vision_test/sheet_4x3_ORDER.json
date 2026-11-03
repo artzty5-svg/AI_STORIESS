@@ -1,0 +1,30 @@
+{
+ "slot_order_tokens": [
+  "ef6c6cef.png",
+  "4b3748b2.png",
+  "c26557d9.png",
+  "9ed36306.png",
+  "db329559.png",
+  "4964207f.png",
+  "1aeacf11.png",
+  "5941d3f4.png",
+  "a7c37148.png",
+  "edf2b205.png",
+  "abafbf5f.png",
+  "b58ee781.png"
+ ],
+ "slot_to_frame": [
+  8250,
+  13500,
+  3150,
+  12000,
+  9300,
+  4500,
+  10650,
+  1350,
+  360,
+  6900,
+  2340,
+  5700
+ ]
+}
